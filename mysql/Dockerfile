@@ -1,0 +1,7 @@
+FROM mysql/mysql-server:5.7
+
+ENV MYSQL_ROOT_PASSWORD=password
+ENV MYSQL_DATABASE=coviddb
+ENV MYSQL_USER=admin
+ENV MYSQL_PASSWORD=password
+
